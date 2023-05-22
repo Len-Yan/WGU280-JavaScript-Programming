@@ -1,0 +1,26 @@
+#page {
+    display: flex;
+    margin: 0 auto;
+}
+
+main {
+    flex-grow: 1;
+    height: 100vh;
+    border-color: black;
+    border: 1px solid;
+    margin: auto;
+}
+
+
+
+aside {
+    width: 50%;
+    min-width: 20%;
+    height: 100%;
+    padding-left: 10px;
+    margin-left: 10px;
+    position: relative;
+    float: right;
+    font-style: italic;
+    background-color: lightgray;
+}
